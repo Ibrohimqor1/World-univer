@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World's Big Univercity</title>
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--Font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <!--Bootstrap swiper css-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- google-font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <!--Bootstrap style css-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- section -->
+    <section class="header">
+        <nav>
+            <a href="#"><img src="images/logo.png" alt="#"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times d-lg-none d-md-none d-sm-none" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#">BOSH SAHIFA</a></li>
+                    <li><a href="#">BIZ HAQIMIZDA</a></li>
+                    <li><a href="#">KURS</a></li>
+                    <li><a href="#">KONTAKT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars d-lg-none d-md-none" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Dunyoning Katta Universitetlari</h1>
+            <p>Web-sayt yaratish hozirgi kunda dunyodagi eng oson narsalardan biri hisoblanadi. Siz faqat HTML, CSS,
+                <br> JavaScriptni o'rganishingiz kerak va siz bunga tayyor bo'lasiz.
+            </p>
+            <a href="#" class="hero-btn">Ko'proq bilish uchun bizga tashrif buyuring.</a>
+        </div>
+
+    </section>
+
+
+    <!-- Course -->
+    <header class="course">
+        <h1>Albatta, biz taklif qilamiz.</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus ipsum ab placeat praesentium minus
+            explicabo itaque nesciunt doloremque blanditiis.</p>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3 course-col">
+                    <h3>Oraliq</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat adipisci ullam minus odio
+                        repellat
+                        cumque vel maiores porro pariatur officiis. Odit est numquam neque atque sed, excepturi incidunt
+                        saepe corporis?</p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3 course-col">
+                    <h3>Daraja</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat adipisci ullam minus odio
+                        repellat
+                        cumque vel maiores porro pariatur officiis. Odit est numquam neque atque sed, excepturi incidunt
+                        saepe corporis?</p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3 course-col">
+                    <h3>Bitiruvdan keyingi.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat adipisci ullam minus odio
+                        repellat
+                        cumque vel maiores porro pariatur officiis. Odit est numquam neque atque sed, excepturi incidunt
+                        saepe corporis?</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Campus -->
+    <section class="campus">
+        <h1>Bizning Global Kampusimiz</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus ipsum ab placeat praesentium minus
+            explicabo itaque nesciunt doloremque blanditiis.</p>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3 campus-col">
+                    <img src="images/london.jpg" alt="#" height="550px" />
+                    <div class="layer">
+                        <h3>LONDON</h3>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3 campus-col">
+                    <img src="images/newyork.jpg" alt="#" height="550px" />
+                    <div class="layer">
+                        <h3>NEW YORK</h3>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3 campus-col">
+                    <img src="images/washington.jpg" alt="#" height="550px" />
+                    <div class="layer">
+                        <h3>WASHINGTON</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Facilities -->
+    <section class="facilities">
+        <h1>Bizning Imkoniyatlarimiz</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, facilis. Quaerat enim perferendis. Natus,
+            porro?</p>
+
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-6 col-lg 3 facilities-col">
+                <img src="images/library.webp" alt="?">
+                <h3>Dunyo Miqyosidagi</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium provident earum reiciendis
+                    assumenda sint minima nesciunt culpa harum numquam quisquam quibusdam sed autem ducimus, veniam
+                    alias adipisci quidem, voluptate nostrum.</p>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg 3 facilities-col">
+                <img src="images/basketball.jpg" alt="?">
+                <h3>Katta O'yin Maydonchasi</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium provident earum reiciendis
+                    assumenda sint minima nesciunt culpa harum numquam quisquam quibusdam sed autem ducimus, veniam
+                    alias adipisci quidem, voluptate nostrum.</p>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg 3 facilities-col">
+                <img src="images/cafteria.jpg" alt="?">
+                <h3>Mazali va Sog'lom Ovqat</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium provident earum reiciendis
+                    assumenda sint minima nesciunt culpa harum numquam quisquam quibusdam sed autem ducimus, veniam
+                    alias adipisci quidem, voluptate nostrum.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <h1>Studentlarimiz bunga nima deydi?</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, facilis. Quaerat enim perferendis. Natus,
+            porro?</p>
+
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="images/eser1.jpg" alt="?">
+                <div>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad qui explicabo voluptas, odit fugiat,
+                        facilis expedita iure aspernatur dolore quo veniam iusto nam quidem. Quibusdam aut facilis sunt
+                        ullam? Aspernatur.</p>
+                    <h3>Christain Berkley</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="testimonial-col">
+                <img src="images/user2.jpg" alt="?">
+                <div>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad qui explicabo voluptas, odit fugiat,
+                        facilis expedita iure aspernatur dolore quo veniam iusto nam quidem. Quibusdam aut facilis sunt
+                        ullam? Aspernatur.</p>
+                    <h3>David Byer</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call To Action -->
+    <section class="cta">
+        <h1>Dunyoning istalgan joyida joylashgan turli xil <br> online kurslarimisga yoziling</h1>
+        <a href="#" class="hero-btn">BIZ BILAN BOG'LANISH</a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <h4>Biz Haqimizda</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In voluptatum unde itaque optio voluptates numquam
+            omnis recusandae assumenda cumque, <br> non hic natus sit atque enim quia dolorem reiciendis deleniti!
+            Dignissimos!</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made width <i class="fa fa-heart-0"></i> by Easy Tutorials</i></p>
+    </footer>
+
+
+
+
+
+    <!-- JavaScript for Toggle Menu -->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+    <!--Bootstrap JS-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+    <!--Animation-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!--Bootstrap swiper js-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</body>
+
+</html>
